@@ -1,5 +1,48 @@
 <!DOCTYPE html>
 <html>
+  <style>
+.social-card {
+  text-align: center;
+  padding: 60px 20px;
+  background: #0b0b0b;
+}
+
+.social-card h2 {
+  color: #00ff88;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  width: 70px;
+  height: 70px;
+  background: #111;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s;
+  border: 1px solid #222;
+}
+
+.social-links a:hover {
+  transform: translateY(-6px) scale(1.08);
+  border-color: #00ff88;
+  box-shadow: 0 0 20px rgba(0,255,136,0.4);
+}
+
+.social-links img {
+  width: 32px;
+  height: 32px;
+}
+</style>
 <head>
   <title>Griddy Studio</title>
 </head>
@@ -9,5 +52,27 @@
   <p>Griddy App is currently in development.</p>
   <p>Coming Soon on iOS and Android.</p>
   <p>Contact: <b>info@griddyfootball.games</b></p>
+<section class="social-card">
+  <h2>Griddy Media’yı Takip Et</h2>
+
+  <div class="social-links">
+    <a href="https://instagram.com/griddy.studio" target="_blank">
+      <img src="icons/instagram.svg" alt="Instagram">
+    </a>
+
+    <a href="https://youtube.com/@griddygamestudios" target="_blank">
+      <img src="icons/youtube.svg" alt="YouTube">
+    </a>
+
+    <a href="https://x.com/griddystudio" target="_blank">
+      <img src="icons/x.svg" alt="X">
+    </a>
+
+    <a href="https://tiktok.com/@griddy.studio" target="_blank">
+      <img src="icons/tiktok.svg" alt="TikTok">
+    </a>
+  </div>
+</section>
 </body>
 </html>
+
